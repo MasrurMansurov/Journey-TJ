@@ -10,7 +10,6 @@ const Home = lazy(() => import('./pages/home/Home'));
 const Cities = lazy(() => import('./pages/cities/Cities'));
 const About = lazy(() => import('./pages/about/About'));
 const City = lazy(() => import('./pages/country/City'));
-const LogInSingUp = lazy(() => import('./pages/logInSingUp/LogInSingUp'));
 const Layout = lazy(() => import('./layout/Layout'));
 
 const App = () => {
